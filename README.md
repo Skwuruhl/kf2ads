@@ -7,12 +7,12 @@ FOVOptionsPercentageValue is located in your KFGame.ini located in C:\Users\<us
 
 Coefficient is the screen match distance as a decimal and horizontal. So 75% is 0.75
 
-Keybinds are numpad 1-6. Off the top of my head the corresponding binds are:
-1 is flamethrowers/mwg
-2 is pistols
-3 is every smg except mp7 and med smg
-4 is the grenade launcher and pistol
-5 is ARs/shotguns/mp7/med smg
+Keybinds are numpad 1-6. Off the top of my head the corresponding binds are:  
+1 is flamethrowers/mwg  
+2 is pistols  
+3 is every smg except mp7 and med smg  
+4 is the grenade launcher and pistol  
+5 is ARs/shotguns/mp7/med smg  
 6 is the lever action
 
 I don't have the scoped weapons (crossbow, m14, railgun) working because I don't know the FOV inside scopes or how their sensitivity is calculated.
