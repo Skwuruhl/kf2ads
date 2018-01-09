@@ -3,7 +3,7 @@ The final output must be pasted into console to create 6 keybinds
 
 The keybinds scale from 1 being the lowest zoom level to 6 being the highest. When pressed they will set your zoom sensitivity to properly match for that zoom level. They also temporarily set your FOV to that zoom level to help you ensure you pressed the correct zoom level for your weapon. To check, just zoom in with your weapon after pressing the keybind. If the zoom level doesn't change throughout the zoom-in then you've selected the correct bind.
 
-FOVOptionsPercentageValue is located in your KFGame.ini located in C:\Users\<user>\Documents\My Games\KillingFloor2\KFGame\Config
+FOVOptionsPercentageValue is located in your KFGame.ini located in C:\\Users\\\<user\>\\Documents\\My Games\\KillingFloor2\\KFGame\\Config
 
 Coefficient is the screen match distance as a decimal and horizontal. So 75% is 0.75
 
