@@ -7,7 +7,7 @@ FOVOptionsPercentageValue is located in your KFGame.ini located in C:\\Users\\\
 
 Coefficient is the screen match distance as a decimal and horizontal. So 75% is 0.75
 
-Keybinds are numpad 1-6. Off the top of my head the corresponding binds are:  
+Keybinds are numpad 1-6. The binds are:  
 1 is flamethrowers/mwg  
 2 is pistols  
 3 is every smg except mp7 and med smg  
