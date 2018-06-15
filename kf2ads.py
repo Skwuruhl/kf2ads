@@ -16,6 +16,6 @@ normalizations = [normalize(x) for x in range(0,6)]
 keys = ['NumpadOne', 'NumpadTwo', 'NumpadThree', 'NumpadFour', 'NumpadFive', 'NumpadSix']
 output = ''
 for x in range(0,6):
-    output += 'SetBind {} "fov {}|SetZoomedSensitivity {}"|'.format(keys[x], zooms[x], round(normalizations[x],6))
+    output += 'SetBind {} "SetZoomedSensitivity {}"|'.format(keys[x], round(normalizations[x],6))
 print('Paste the following into console:', end='\n')
 print(output[:-1])
