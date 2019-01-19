@@ -3,7 +3,11 @@
 
 FOVOptionsPercentageValue is located in your KFGame.ini located in C:\\Users\\\<user\>\\Documents\\My Games\\KillingFloor2\\KFGame\\Config
 
-Coefficient is the screen match distance as a decimal and horizontal. So 75% is 0.75
+Coefficient's funciton depends on the mode.
+
+Zoom ratio scales sensitivity by the focal length then multiplies it by the coefficient. Use 1.0 by default.
+
+Monitor distance scales sensitivity by a fov aspect ratio defined by the coefficient. Coefficient is a percent of the horizontal where 1.0 is 100%. Don't use 0 here, just use zoom ratio instead.
 
 Keybinds numpad 1-7 for each weapon type:
 1 for flamethrowers, MWG, and freezethrower
