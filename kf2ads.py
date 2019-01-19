@@ -9,13 +9,13 @@ fovMult = float(input("FOVOptionsPercentageValue="))
 coef = float(input("Coefficient="))
 fov = 90 * fovMult
 radialfov = math.radians(fov)
-zooms = [80, 77, 75, 73, 70, 65]
+zooms = [80, 77, 75, 73, 70, 65, 50]
 zooms = [fovMult*z for z in zooms]
 radialzooms = [math.radians(z) for z in zooms]
-normalizations = [normalize(x) for x in range(0,6)]
-keys = ['NumpadOne', 'NumpadTwo', 'NumpadThree', 'NumpadFour', 'NumpadFive', 'NumpadSix']
+normalizations = [normalize(x) for x in range(0,7)]
+keys = ['NumpadOne', 'NumpadTwo', 'NumpadThree', 'NumpadFour', 'NumpadFive', 'NumpadSix', 'NumpadSeven']
 output = ''
-for x in range(0,6):
+for x in range(0,7):
     output += 'SetBind {} "SetZoomedSensitivity {}"|'.format(keys[x], round(normalizations[x],6))
 print('Paste the following into console:', end='\n')
 print(output[:-1])
