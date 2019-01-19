@@ -6,7 +6,7 @@ def normalize(x):
     return math.atan(coef*math.tan(radialzooms[x]/2)) / math.atan(coef*math.tan(radialfov/2)) / zooms[x] / 0.01333
 
 fovMult = float(input("FOVOptionsPercentageValue="))
-mode = int(input("Mode:\n1 for zoom ratio\n2 for monitor distance\n"))
+mode = int(input("Mode:\n1 for zoom ratio\n2 for monitor distance\n\t"))
 coef = float(input("Coefficient="))
 fov = 90 * fovMult
 radialfov = math.radians(fov)
