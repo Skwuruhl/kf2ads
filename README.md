@@ -1,7 +1,10 @@
 # kf2ads
-# The final output must be pasted into console to create 7 keybinds
+# The final output must be pasted into console to create 10 keybinds
+# Now updated for scoped weapons.
 
 FOVOptionsPercentageValue is located in your KFGame.ini located in C:\\Users\\\<user\>\\Documents\\My Games\\KillingFloor2\\KFGame\\Config
+
+If you don't know what coefficient and mode to use, I recommend "1" for both.
 
 Coefficient's funciton depends on the mode.
 
@@ -9,13 +12,14 @@ Zoom ratio scales sensitivity by the focal length then multiplies it by the coef
 
 Monitor distance scales sensitivity by a fov aspect ratio defined by the coefficient. Coefficient is a percent of the horizontal where 1.0 is 100%. Don't use 0 here, just use zoom ratio instead.
 
-Keybinds numpad 1-7 for each weapon type:  
-1 for flamethrowers, MWG, and freezethrower  
-2 for pistols  
-3 for every SMG excluding MP7, Thompson, and Medic SMG  
-4 for the grenade launchers  
-5 for assault rifles, shotguns, rocket launchers, and MP7, Thompson, Medic SMG, and Hemoglobin  
-6 for the lever actions  
-7 for the husk cannon  
-
-I don't have the scoped weapons (crossbow, m14, railgun) working because I don't know the FOV inside scopes or how their sensitivity is calculated.
+Keybinds numpad 0-9 for each weapon type:  
+0 for flamethrowers, MWG, and freezethrower  
+1 for pistols  
+2 for every SMG excluding MP7, Thompson, and Medic SMG  
+3 for the grenade launchers  
+4 for assault rifles, shotguns, rocket launchers, and MP7, Thompson, Medic SMG, and Hemoglobin  
+5 for the lever actions and pump-action grenade launchers
+6 for the husk cannons and mine throwers
+7 for ACOG scopes
+8 for Railguns
+9 for Crossbows
